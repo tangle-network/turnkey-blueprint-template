@@ -490,7 +490,7 @@ checksum = "a40e1ef334153322fd878d07e86af7a529bcb86b2439525920a88eba87bcf943"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -652,7 +652,7 @@ dependencies = [
  "proc-macro-error",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
  "syn-solidity 0.4.2",
  "tiny-keccak",
 ]
@@ -668,7 +668,7 @@ dependencies = [
  "proc-macro-error2",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -685,7 +685,7 @@ dependencies = [
  "proc-macro-error2",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
  "syn-solidity 0.8.19",
  "tiny-keccak",
 ]
@@ -703,7 +703,7 @@ dependencies = [
  "proc-macro2",
  "quote",
  "serde_json",
- "syn 2.0.96",
+ "syn 2.0.98",
  "syn-solidity 0.8.19",
 ]
 
@@ -927,7 +927,7 @@ dependencies = [
  "proc-macro-error",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -1224,7 +1224,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "62945a2f7e6de02a31fe400aa489f0e0f5b2502e69f95f853adb82a96c7a6b60"
 dependencies = [
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -1262,7 +1262,7 @@ dependencies = [
  "num-traits",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -1403,7 +1403,7 @@ checksum = "213888f660fddcca0d257e88e54ac05bca01885f258ccdf695bafd77031bb69d"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -1509,7 +1509,7 @@ checksum = "965c2d33e53cb6b267e148a4cb0760bc01f4904c1cd4bb4002a085bb016d1490"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
  "synstructure 0.13.1",
 ]
 
@@ -1521,7 +1521,7 @@ checksum = "7b18050c2cd6fe86c3a76584ef5e0baf286d038cda203eb6223df2cc413565f7"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -1717,7 +1717,7 @@ checksum = "c7c24de15d275a1ecfd47a380fb4d5ec9bfe0933f309ed5e705b775596a3574d"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -1728,13 +1728,13 @@ checksum = "8b75356056920673b02621b35afd0f7dda9306d03c79a30f5c56c44cf256e3de"
 
 [[package]]
 name = "async-trait"
-version = "0.1.85"
+version = "0.1.86"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3f934833b4b7233644e5848f235df3f57ed8c80f1528a26c3dfa13d2147fa056"
+checksum = "644dd749086bf3771a2fbc5f256fdb982d53f011c7d5d560304eafeecebce79d"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -1803,7 +1803,7 @@ checksum = "e12882f59de5360c748c4cbf569a042d5fb0eb515f7bea9c1f470b47f6ffbd73"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -2137,7 +2137,7 @@ version = "2.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "33415e24172c1b7d6066f6d999545375ab8e1d95421d6784bdfff9496f292387"
 dependencies = [
- "bitcoin_hashes 0.13.0",
+ "bitcoin_hashes 0.12.0",
  "serde",
  "unicode-normalization",
 ]
@@ -2186,12 +2186,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "bitcoin-internals"
-version = "0.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9425c3bf7089c983facbae04de54513cce73b41c7f9ff8c845b54e7bc64ebbfb"
-
-[[package]]
 name = "bitcoin-io"
 version = "0.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2214,22 +2208,12 @@ dependencies = [
 
 [[package]]
 name = "bitcoin_hashes"
-version = "0.13.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1930a4dabfebb8d7d9992db18ebe3ae2876f0a305fab206fd168df931ede293b"
-dependencies = [
- "bitcoin-internals",
- "hex-conservative 0.1.2",
-]
-
-[[package]]
-name = "bitcoin_hashes"
 version = "0.14.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bb18c03d0db0247e147a21a6faafd5a7eb851c743db062de72018b6b7e8e4d16"
 dependencies = [
  "bitcoin-io",
- "hex-conservative 0.2.1",
+ "hex-conservative",
 ]
 
 [[package]]
@@ -2350,7 +2334,7 @@ dependencies = [
 [[package]]
 name = "blueprint-build-utils"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "gadget-std",
 ]
@@ -2358,7 +2342,7 @@ dependencies = [
 [[package]]
 name = "blueprint-metadata"
 version = "0.2.1"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "cargo_metadata 0.18.1",
  "fs2",
@@ -2367,13 +2351,14 @@ dependencies = [
  "rustdoc-types",
  "serde",
  "serde_json",
+ "thiserror 2.0.11",
  "typed-builder",
 ]
 
 [[package]]
 name = "blueprint-sdk"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "blueprint-build-utils",
  "blueprint-metadata",
@@ -2441,7 +2426,7 @@ dependencies = [
  "proc-macro-crate 3.2.0",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -2822,7 +2807,7 @@ checksum = "3fa76293b4f7bb636ab88fd78228235b5248b4d05cc589aed610f954af5d7c7a"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -2951,7 +2936,7 @@ dependencies = [
 [[package]]
 name = "cargo-tangle"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "alloy-json-abi",
  "alloy-network",
@@ -3092,7 +3077,7 @@ checksum = "45565fc9416b9896014f5732ac776f810ee53a66730c17e4020c3ec064a8f88f"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -3201,7 +3186,7 @@ dependencies = [
  "heck 0.5.0",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -3740,7 +3725,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "32a2785755761f3ddc1492979ce1e48d2c00d09311c39e4466429188f3dd6501"
 dependencies = [
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -3834,7 +3819,7 @@ dependencies = [
  "proc-macro-crate 3.2.0",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -4080,7 +4065,7 @@ checksum = "f46882e17999c6cc590af592290432be3bce0428cb0d5f8b6715e4dc7b383eb3"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -4117,7 +4102,7 @@ dependencies = [
  "proc-macro2",
  "quote",
  "scratch",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -4130,7 +4115,7 @@ dependencies = [
  "codespan-reporting",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -4148,7 +4133,7 @@ dependencies = [
  "proc-macro2",
  "quote",
  "rustversion",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -4172,7 +4157,7 @@ dependencies = [
  "proc-macro2",
  "quote",
  "strsim",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -4183,7 +4168,7 @@ checksum = "d336a2a514f6ccccaa3e09b02d41d35330c07ddf03a62165fcec10bb561c7806"
 dependencies = [
  "darling_core",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -4223,7 +4208,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1145d32e826a7748b69ee8fc62d3e6355ff7f1051df53141e7048162fc90481b"
 dependencies = [
  "data-encoding",
- "syn 2.0.96",
+ "syn 1.0.109",
 ]
 
 [[package]]
@@ -4286,7 +4271,7 @@ checksum = "d65d7ce8132b7c0e54497a4d9a55a1c2a0912a0d786cf894472ba818fba45762"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -4297,7 +4282,7 @@ checksum = "62d671cc41a825ebabc75757b62d3d168c577f9149b2d49ece1dad1f72119d25"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -4310,7 +4295,7 @@ dependencies = [
  "proc-macro2",
  "quote",
  "rustc_version 0.4.1",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -4330,7 +4315,7 @@ checksum = "cb7330aeadfbe296029522e6c40f315320aba36fc43a5b3632f3795348f3bd22"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
  "unicode-xid",
 ]
 
@@ -4428,7 +4413,7 @@ checksum = "97369cbbc041bc366949bc74d34658d6cda5621039731c6310521892a3a20ae0"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -4452,7 +4437,7 @@ dependencies = [
  "proc-macro2",
  "quote",
  "regex",
- "syn 2.0.96",
+ "syn 2.0.98",
  "termcolor",
  "toml 0.8.19",
  "walkdir",
@@ -4506,7 +4491,7 @@ checksum = "7e8671d54058979a37a26f3511fbf8d198ba1aa35ffb202c42587d918d77213a"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -4626,13 +4611,14 @@ dependencies = [
  "enum-ordinalize 4.3.0",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
 name = "eigen-client-avsregistry"
-version = "0.1.2"
-source = "git+https://github.com/Layr-Labs/eigensdk-rs.git?rev=6ab2674cf19e2f2c78218de706975af1244dad9c#6ab2674cf19e2f2c78218de706975af1244dad9c"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "8f67542c5c401ef27cc69e69fef5e9538ecdbfdbcbb735e6b58f323e1c38878e"
 dependencies = [
  "alloy",
  "alloy-primitives 0.8.20",
@@ -4653,8 +4639,9 @@ dependencies = [
 
 [[package]]
 name = "eigen-client-elcontracts"
-version = "0.1.2"
-source = "git+https://github.com/Layr-Labs/eigensdk-rs.git?rev=6ab2674cf19e2f2c78218de706975af1244dad9c#6ab2674cf19e2f2c78218de706975af1244dad9c"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9903d81154190fcd38105543ad87601aa5626a7a3ebaac1e95a727ba555dd67c"
 dependencies = [
  "alloy",
  "alloy-primitives 0.8.20",
@@ -4668,8 +4655,9 @@ dependencies = [
 
 [[package]]
 name = "eigen-common"
-version = "0.1.2"
-source = "git+https://github.com/Layr-Labs/eigensdk-rs.git?rev=6ab2674cf19e2f2c78218de706975af1244dad9c#6ab2674cf19e2f2c78218de706975af1244dad9c"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ef203772753614e2c3815fcbba7c321c505107fbc21ce5209371dbc1747ee866"
 dependencies = [
  "alloy-provider",
  "alloy-pubsub",
@@ -4681,8 +4669,9 @@ dependencies = [
 
 [[package]]
 name = "eigen-crypto-bls"
-version = "0.1.2"
-source = "git+https://github.com/Layr-Labs/eigensdk-rs.git?rev=6ab2674cf19e2f2c78218de706975af1244dad9c#6ab2674cf19e2f2c78218de706975af1244dad9c"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2011781d0aa1db7a3335f150cb35d24733f0261073484bc61dcb428eaec3ba84"
 dependencies = [
  "alloy-primitives 0.8.20",
  "ark-bn254 0.5.0",
@@ -4698,8 +4687,9 @@ dependencies = [
 
 [[package]]
 name = "eigen-crypto-bn254"
-version = "0.1.2"
-source = "git+https://github.com/Layr-Labs/eigensdk-rs.git?rev=6ab2674cf19e2f2c78218de706975af1244dad9c#6ab2674cf19e2f2c78218de706975af1244dad9c"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6c7b0517eba91bcd109062b271fa579ba9f8a159c445bab9a8df496d25ad1a7e"
 dependencies = [
  "ark-bn254 0.5.0",
  "ark-ec 0.5.0",
@@ -4709,8 +4699,9 @@ dependencies = [
 
 [[package]]
 name = "eigen-logging"
-version = "0.1.2"
-source = "git+https://github.com/Layr-Labs/eigensdk-rs.git?rev=6ab2674cf19e2f2c78218de706975af1244dad9c#6ab2674cf19e2f2c78218de706975af1244dad9c"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "35fa2e89b477296b087b42a1e01ef03580c2c8d85943f23e7e5bc9c75eafdb0e"
 dependencies = [
  "ctor",
  "once_cell",
@@ -4720,8 +4711,9 @@ dependencies = [
 
 [[package]]
 name = "eigen-services-avsregistry"
-version = "0.1.2"
-source = "git+https://github.com/Layr-Labs/eigensdk-rs.git?rev=6ab2674cf19e2f2c78218de706975af1244dad9c#6ab2674cf19e2f2c78218de706975af1244dad9c"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5513ed6db2680c18359efb008a2bf53263165d2969367ec8cb10ec7626e27fb9"
 dependencies = [
  "alloy-primitives 0.8.20",
  "ark-bn254 0.5.0",
@@ -4736,8 +4728,9 @@ dependencies = [
 
 [[package]]
 name = "eigen-services-blsaggregation"
-version = "0.1.2"
-source = "git+https://github.com/Layr-Labs/eigensdk-rs.git?rev=6ab2674cf19e2f2c78218de706975af1244dad9c#6ab2674cf19e2f2c78218de706975af1244dad9c"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9f5a7c5528bd573052795c23ee810b1f6915c5fb576f0bc535972a9d87e26445"
 dependencies = [
  "alloy",
  "alloy-primitives 0.8.20",
@@ -4759,8 +4752,9 @@ dependencies = [
 
 [[package]]
 name = "eigen-services-operatorsinfo"
-version = "0.1.2"
-source = "git+https://github.com/Layr-Labs/eigensdk-rs.git?rev=6ab2674cf19e2f2c78218de706975af1244dad9c#6ab2674cf19e2f2c78218de706975af1244dad9c"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e551346d71e6c98981f36ce78d7cc9117b0bb3668412ca4a4702ad3ec8ad8e95"
 dependencies = [
  "alloy",
  "alloy-primitives 0.8.20",
@@ -4781,8 +4775,9 @@ dependencies = [
 
 [[package]]
 name = "eigen-signer"
-version = "0.1.2"
-source = "git+https://github.com/Layr-Labs/eigensdk-rs.git?rev=6ab2674cf19e2f2c78218de706975af1244dad9c#6ab2674cf19e2f2c78218de706975af1244dad9c"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d48c56f0117eab8021be84fed0743ec1d782561a9527d4f7bbf22401931e44d4"
 dependencies = [
  "alloy",
  "alloy-network",
@@ -4801,8 +4796,9 @@ dependencies = [
 
 [[package]]
 name = "eigen-types"
-version = "0.1.2"
-source = "git+https://github.com/Layr-Labs/eigensdk-rs.git?rev=6ab2674cf19e2f2c78218de706975af1244dad9c#6ab2674cf19e2f2c78218de706975af1244dad9c"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3df667930a14a41851503eb90837d606f436348b5a9bee7ce814f78c696dd56a"
 dependencies = [
  "alloy-primitives 0.8.20",
  "eigen-crypto-bls",
@@ -4814,8 +4810,9 @@ dependencies = [
 
 [[package]]
 name = "eigen-utils"
-version = "0.1.2"
-source = "git+https://github.com/Layr-Labs/eigensdk-rs.git?rev=6ab2674cf19e2f2c78218de706975af1244dad9c#6ab2674cf19e2f2c78218de706975af1244dad9c"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "640db3098ff0d359ce9292e7a3a8ae7ef3d72817e0d5c4f0cc759ed0879661b3"
 dependencies = [
  "alloy",
  "reqwest 0.12.12",
@@ -4823,8 +4820,9 @@ dependencies = [
 
 [[package]]
 name = "eigensdk"
-version = "0.1.2"
-source = "git+https://github.com/Layr-Labs/eigensdk-rs.git?rev=6ab2674cf19e2f2c78218de706975af1244dad9c#6ab2674cf19e2f2c78218de706975af1244dad9c"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "38a7f451f46558878115fb83198ccd1826378a8f4e1779a5fb45e3a8a178bc35"
 dependencies = [
  "eigen-client-avsregistry",
  "eigen-client-elcontracts",
@@ -4918,7 +4916,7 @@ dependencies = [
  "heck 0.5.0",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -4931,7 +4929,7 @@ dependencies = [
  "num-traits",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -4951,7 +4949,7 @@ checksum = "0d28318a75d4aead5c4db25382e8ef717932d0346600cacae6357eb5941bc5ff"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -4971,7 +4969,7 @@ checksum = "fc4caf64a58d7a6d65ab00639b046ff54399a39f5f2554728895ace4b297cd79"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -4982,7 +4980,7 @@ checksum = "2f9ed6b3789237c8a0c1c505af1c7eb2c560df6186f01b098c3a1064ea532f38"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -5211,7 +5209,7 @@ dependencies = [
  "reqwest 0.11.27",
  "serde",
  "serde_json",
- "syn 2.0.96",
+ "syn 2.0.98",
  "toml 0.8.19",
  "walkdir",
 ]
@@ -5229,7 +5227,7 @@ dependencies = [
  "proc-macro2",
  "quote",
  "serde_json",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -5255,7 +5253,7 @@ dependencies = [
  "serde",
  "serde_json",
  "strum 0.26.3",
- "syn 2.0.96",
+ "syn 2.0.98",
  "tempfile",
  "thiserror 1.0.69",
  "tiny-keccak",
@@ -5426,7 +5424,7 @@ dependencies = [
  "prettyplease",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -5686,7 +5684,7 @@ dependencies = [
  "proc-macro-crate 3.2.0",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -5824,7 +5822,7 @@ dependencies = [
  "proc-macro2",
  "quote",
  "sp-crypto-hashing",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -5837,7 +5835,7 @@ dependencies = [
  "proc-macro-crate 3.2.0",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -5848,7 +5846,7 @@ checksum = "ed971c6435503a099bdac99fe4c5bea08981709e5b5a0a8535a1856f48561191"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -6048,7 +6046,7 @@ checksum = "162ee34ebcb7c64a8abebc059ce0fee27c2262618d7b60ed8faf72fef13c3650"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -6131,22 +6129,22 @@ dependencies = [
 [[package]]
 name = "gadget-blueprint-proc-macro"
 version = "0.5.1"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "gadget-blueprint-proc-macro-core",
  "gadget-std",
  "indexmap 2.7.1",
- "itertools 0.13.0",
+ "itertools 0.14.0",
  "proc-macro2",
  "quote",
  "serde_json",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
 name = "gadget-blueprint-proc-macro-core"
 version = "0.3.1"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "cid",
  "ethereum-types",
@@ -6157,7 +6155,7 @@ dependencies = [
 [[package]]
 name = "gadget-blueprint-serde"
 version = "0.3.1"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "paste",
  "serde",
@@ -6168,7 +6166,7 @@ dependencies = [
 [[package]]
 name = "gadget-client-core"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "async-trait",
  "auto_impl",
@@ -6179,7 +6177,7 @@ dependencies = [
 [[package]]
 name = "gadget-client-eigenlayer"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "alloy-contract",
  "alloy-network",
@@ -6188,6 +6186,7 @@ dependencies = [
  "alloy-pubsub",
  "alloy-transport",
  "eigensdk",
+ "gadget-client-core",
  "gadget-config",
  "gadget-std",
  "gadget-utils-evm",
@@ -6201,7 +6200,7 @@ dependencies = [
 [[package]]
 name = "gadget-client-evm"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "alloy-consensus",
  "alloy-json-rpc",
@@ -6216,6 +6215,7 @@ dependencies = [
  "alloy-transport",
  "alloy-transport-http",
  "async-trait",
+ "gadget-client-core",
  "gadget-logging",
  "gadget-rpc-calls",
  "gadget-std",
@@ -6230,8 +6230,9 @@ dependencies = [
 [[package]]
 name = "gadget-client-networking"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
+ "gadget-client-core",
  "gadget-config",
  "gadget-crypto",
  "gadget-logging",
@@ -6247,7 +6248,7 @@ dependencies = [
 [[package]]
 name = "gadget-client-tangle"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "async-trait",
  "auto_impl",
@@ -6270,7 +6271,7 @@ dependencies = [
 [[package]]
 name = "gadget-clients"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "gadget-client-core",
  "gadget-client-eigenlayer",
@@ -6284,7 +6285,7 @@ dependencies = [
 [[package]]
 name = "gadget-config"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "alloy-primitives 0.8.20",
  "clap",
@@ -6302,17 +6303,17 @@ dependencies = [
 [[package]]
 name = "gadget-context-derive"
 version = "0.3.1"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
 name = "gadget-contexts"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "async-trait",
  "gadget-clients",
@@ -6326,7 +6327,7 @@ dependencies = [
 [[package]]
 name = "gadget-core-testing-utils"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "async-trait",
  "cargo_toml",
@@ -6348,7 +6349,7 @@ dependencies = [
 [[package]]
 name = "gadget-crypto"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "gadget-crypto-bls",
  "gadget-crypto-bn254",
@@ -6365,7 +6366,7 @@ dependencies = [
 [[package]]
 name = "gadget-crypto-bls"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "ark-serialize 0.5.0",
  "gadget-crypto-core",
@@ -6375,13 +6376,13 @@ dependencies = [
  "serde",
  "serde_bytes",
  "thiserror 2.0.11",
- "w3f-bls 0.1.8 (git+https://github.com/drewstone/bls.git?branch=drew/bump-ark-versions)",
+ "tnt-bls",
 ]
 
 [[package]]
 name = "gadget-crypto-bn254"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "ark-bn254 0.5.0",
  "ark-ec 0.5.0",
@@ -6401,7 +6402,7 @@ dependencies = [
 [[package]]
 name = "gadget-crypto-core"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "clap",
  "gadget-std",
@@ -6412,7 +6413,7 @@ dependencies = [
 [[package]]
 name = "gadget-crypto-ed25519"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "ed25519-zebra",
  "gadget-crypto-core",
@@ -6426,7 +6427,7 @@ dependencies = [
 [[package]]
 name = "gadget-crypto-hashing"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "blake3",
  "gadget-std",
@@ -6437,7 +6438,7 @@ dependencies = [
 [[package]]
 name = "gadget-crypto-k256"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "alloy-primitives 0.8.20",
  "alloy-signer-local",
@@ -6453,7 +6454,7 @@ dependencies = [
 [[package]]
 name = "gadget-crypto-sp-core"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "gadget-crypto-core",
  "gadget-std",
@@ -6468,7 +6469,7 @@ dependencies = [
 [[package]]
 name = "gadget-crypto-sr25519"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "gadget-crypto-core",
  "gadget-std",
@@ -6482,7 +6483,7 @@ dependencies = [
 [[package]]
 name = "gadget-crypto-tangle-pair-signer"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "alloy-primitives 0.8.20",
  "alloy-signer-local",
@@ -6499,7 +6500,7 @@ dependencies = [
 [[package]]
 name = "gadget-event-listeners"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "gadget-event-listeners-core",
  "gadget-event-listeners-cronjob",
@@ -6511,7 +6512,7 @@ dependencies = [
 [[package]]
 name = "gadget-event-listeners-core"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "async-trait",
  "gadget-logging",
@@ -6523,7 +6524,7 @@ dependencies = [
 [[package]]
 name = "gadget-event-listeners-cronjob"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "async-trait",
  "gadget-event-listeners-core",
@@ -6537,7 +6538,7 @@ dependencies = [
 [[package]]
 name = "gadget-event-listeners-evm"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "alloy-contract",
  "alloy-network",
@@ -6558,7 +6559,7 @@ dependencies = [
 [[package]]
 name = "gadget-event-listeners-tangle"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "async-trait",
  "gadget-blueprint-serde",
@@ -6580,7 +6581,7 @@ dependencies = [
 [[package]]
 name = "gadget-keystore"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "alloy-network",
  "alloy-primitives 0.8.20",
@@ -6613,15 +6614,15 @@ dependencies = [
  "subxt-core",
  "tangle-subxt",
  "thiserror 2.0.11",
+ "tnt-bls",
  "tokio",
- "w3f-bls 0.1.8 (git+https://github.com/drewstone/bls.git?branch=drew/bump-ark-versions)",
  "zeroize",
 ]
 
 [[package]]
 name = "gadget-logging"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "tracing",
  "tracing-subscriber 0.3.19",
@@ -6630,7 +6631,7 @@ dependencies = [
 [[package]]
 name = "gadget-macros"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "async-trait",
  "clap",
@@ -6654,7 +6655,7 @@ dependencies = [
 [[package]]
 name = "gadget-networking"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "async-trait",
  "auto_impl",
@@ -6665,7 +6666,7 @@ dependencies = [
  "gadget-logging",
  "gadget-std",
  "hex",
- "itertools 0.13.0",
+ "itertools 0.14.0",
  "k256",
  "libp2p",
  "lru-mem",
@@ -6681,7 +6682,7 @@ dependencies = [
 [[package]]
 name = "gadget-rpc-calls"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "gadget-logging",
  "metrics",
@@ -6690,7 +6691,7 @@ dependencies = [
 [[package]]
 name = "gadget-runner-core"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "async-trait",
  "futures",
@@ -6705,7 +6706,7 @@ dependencies = [
 [[package]]
 name = "gadget-runner-eigenlayer"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "alloy-contract",
  "alloy-network",
@@ -6729,7 +6730,7 @@ dependencies = [
 [[package]]
 name = "gadget-runner-tangle"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "async-trait",
  "futures",
@@ -6750,7 +6751,7 @@ dependencies = [
 [[package]]
 name = "gadget-runners"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "gadget-runner-core",
  "gadget-runner-eigenlayer",
@@ -6760,7 +6761,7 @@ dependencies = [
 [[package]]
 name = "gadget-std"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "async-trait",
  "colored",
@@ -6773,7 +6774,7 @@ dependencies = [
 [[package]]
 name = "gadget-store-local-database"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "gadget-std",
  "serde",
@@ -6783,7 +6784,7 @@ dependencies = [
 [[package]]
 name = "gadget-stores"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "gadget-store-local-database",
 ]
@@ -6791,12 +6792,14 @@ dependencies = [
 [[package]]
 name = "gadget-tangle-testing-utils"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "alloy-json-rpc",
+ "alloy-primitives 0.8.20",
  "alloy-provider",
  "alloy-rpc-types",
  "alloy-signer-local",
+ "alloy-sol-types 0.8.19",
  "alloy-transport",
  "async-trait",
  "cargo-tangle",
@@ -6829,7 +6832,7 @@ dependencies = [
 [[package]]
 name = "gadget-testing-utils"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "gadget-core-testing-utils",
  "gadget-tangle-testing-utils",
@@ -6838,7 +6841,7 @@ dependencies = [
 [[package]]
 name = "gadget-utils"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "gadget-utils-eigenlayer",
  "gadget-utils-evm",
@@ -6848,7 +6851,7 @@ dependencies = [
 [[package]]
 name = "gadget-utils-eigenlayer"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "alloy-contract",
  "alloy-network",
@@ -6863,7 +6866,7 @@ dependencies = [
 [[package]]
 name = "gadget-utils-evm"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "alloy-network",
  "alloy-primitives 0.8.20",
@@ -6878,7 +6881,7 @@ dependencies = [
 [[package]]
 name = "gadget-utils-tangle"
 version = "0.1.0"
-source = "git+https://github.com/tangle-network/gadget#8762d76dcc23069f6fb0dc8ff52e83a3ab3154d9"
+source = "git+https://github.com/tangle-network/gadget#b40601a9d092cd472b026aa96f1d2e74c56f7735"
 dependencies = [
  "async-trait",
  "gadget-logging",
@@ -7396,12 +7399,6 @@ dependencies = [
 
 [[package]]
 name = "hex-conservative"
-version = "0.1.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "212ab92002354b4819390025006c897e8140934349e8635c9b077f47b4dcbd20"
-
-[[package]]
-name = "hex-conservative"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5313b072ce3c597065a808dbf612c4c8e8590bdbf8b579508bf7a762c5eae6cd"
@@ -7857,7 +7854,7 @@ checksum = "1ec89e9337638ecdc08744df490b221a7399bf8d164eb52a665454e60e075ad6"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -8008,7 +8005,7 @@ checksum = "a0eb5a3343abf848c0984fe4604b2b105da9539376e24fc0a3b0007411ae4fd9"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -8941,7 +8938,7 @@ dependencies = [
  "heck 0.5.0",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -9217,7 +9214,7 @@ checksum = "ddde51013c8d2694f8c162c2ceb7abaed91f5175ec1e75a6392e35913e907c5d"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -9310,7 +9307,7 @@ dependencies = [
  "macro_magic_core",
  "macro_magic_macros",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -9324,7 +9321,7 @@ dependencies = [
  "macro_magic_core_macros",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -9335,7 +9332,7 @@ checksum = "b02abfe41815b5bd98dbd4260173db2c116dda171dc0fe7838cb206333b83308"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -9346,7 +9343,7 @@ checksum = "73ea28ee64b88876bf45277ed9a5817c1817df061a74f2b988971a12570e5869"
 dependencies = [
  "macro_magic_core",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -9787,7 +9784,7 @@ checksum = "ed3955f1a9c7c0c15e092f9c887db08b1fc683305fdf6eb6684f22555355e202"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -9857,7 +9854,7 @@ dependencies = [
  "proc-macro-crate 3.2.0",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -9981,7 +9978,7 @@ checksum = "a948666b637a0f465e8564c73e89d4dde00d72d4d473cc972f390fc3dcee7d9c"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -10637,7 +10634,7 @@ checksum = "3170e2f4a3d95f2ace274b703a72630294f0a27c687a4adbad9590e2b3e5fe82"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -11442,7 +11439,7 @@ checksum = "b8aee42afa416be6324cf6650c137da9742f27dc7be3c7ed39ad9748baf3b9ae"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -12064,9 +12061,9 @@ version = "2.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4e69bf016dc406eff7d53a7d3f7cf1c2e72c82b9088aac1118591e36dd2cd3e9"
 dependencies = [
- "bitcoin_hashes 0.13.0",
- "rand 0.8.5",
- "rand_core 0.6.4",
+ "bitcoin_hashes 0.12.0",
+ "rand 0.7.3",
+ "rand_core 0.5.1",
  "serde",
  "unicode-normalization",
 ]
@@ -12308,7 +12305,7 @@ dependencies = [
  "pest_meta",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -12381,7 +12378,7 @@ dependencies = [
  "phf_shared 0.11.3",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -12419,7 +12416,7 @@ checksum = "d56a66c0c55993aa927429d0f8a0abfd74f084e4d9c192cffed01e418d83eefb"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -13021,7 +13018,7 @@ dependencies = [
  "polkavm-common 0.9.0",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -13033,7 +13030,7 @@ dependencies = [
  "polkavm-common 0.10.0",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -13043,7 +13040,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8ba81f7b5faac81e528eb6158a6f3c9e0bb1008e0ffa19653bc8dea925ecb429"
 dependencies = [
  "polkavm-derive-impl 0.9.0",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -13053,7 +13050,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9324fe036de37c17829af233b46ef6b5562d4a0c09bb7fdb9f8378856dee30cf"
 dependencies = [
  "polkavm-derive-impl 0.10.0",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -13179,7 +13176,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6924ced06e1f7dfe3fa48d57b9f74f55d8915f5036121bef647ef4b204895fac"
 dependencies = [
  "proc-macro2",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -13279,7 +13276,7 @@ dependencies = [
  "proc-macro-error-attr2",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -13290,7 +13287,7 @@ checksum = "834da187cfe638ae8abb0203f0b33e5ccdb02a28e7199f2f47b3e2754f50edca"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -13328,7 +13325,7 @@ checksum = "440f724eba9f6996b75d63681b0a92b06947f1457076d503a4d2e2c8f56442b8"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -13658,7 +13655,7 @@ checksum = "bcc303e793d3734489387d205e9b186fac9c6cfacedd98cbb2e8a5943595f3e6"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -13886,7 +13883,7 @@ checksum = "a5a11a05ee1ce44058fa3d5961d05194fdbe3ad6b40f904af764d81b86450e6b"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -14109,9 +14106,9 @@ dependencies = [
 
 [[package]]
 name = "rustdoc-types"
-version = "0.33.0"
+version = "0.35.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e33060dbec9e1d13d285c4cddc150a431569be97f33bf0b6c1ec6eea934c31ca"
+checksum = "bf583db9958b3161d7980a56a8ee3c25e1a40708b81259be72584b7e0ea07c95"
 dependencies = [
  "serde",
 ]
@@ -14487,7 +14484,7 @@ dependencies = [
  "darling",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -14515,7 +14512,7 @@ dependencies = [
  "proc-macro-crate 3.2.0",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -14541,7 +14538,7 @@ dependencies = [
  "proc-macro-crate 3.2.0",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -14563,7 +14560,7 @@ dependencies = [
  "proc-macro2",
  "quote",
  "scale-info",
- "syn 2.0.96",
+ "syn 2.0.98",
  "thiserror 1.0.69",
 ]
 
@@ -14905,7 +14902,7 @@ checksum = "5a9bf7cf98d04a2b28aead066b7496853d4779c9cc183c440dbac457641e19a0"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -14928,7 +14925,7 @@ checksum = "6c64451ba24fc7a6a2d60fc75dd9c83c90903b19028d4eff35e88fc1e86564e9"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -14979,7 +14976,7 @@ dependencies = [
  "darling",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -16164,7 +16161,7 @@ dependencies = [
  "bs58",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -16352,7 +16349,7 @@ dependencies = [
  "proc-macro-crate 3.2.0",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -16551,7 +16548,7 @@ dependencies = [
  "substrate-bip39",
  "thiserror 1.0.69",
  "tracing",
- "w3f-bls 0.1.8 (registry+https://github.com/rust-lang/crates.io-index)",
+ "w3f-bls",
  "zeroize",
 ]
 
@@ -16607,7 +16604,7 @@ checksum = "b85d0f1f1e44bd8617eb2a48203ee854981229e3e79e6f468c7175d5fd37489b"
 dependencies = [
  "quote",
  "sp-crypto-hashing",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -16618,7 +16615,7 @@ checksum = "48d09fa0a5f7299fb81ee25ae3853d26200f7a348148aed6de76be905c007dbe"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -16853,7 +16850,7 @@ dependencies = [
  "proc-macro-crate 3.2.0",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -17065,7 +17062,7 @@ dependencies = [
  "parity-scale-codec",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -17314,7 +17311,7 @@ dependencies = [
  "proc-macro2",
  "quote",
  "rustversion",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -17407,7 +17404,7 @@ dependencies = [
  "scale-info",
  "scale-typegen",
  "subxt-metadata",
- "syn 2.0.96",
+ "syn 2.0.98",
  "thiserror 1.0.69",
 ]
 
@@ -17470,7 +17467,7 @@ dependencies = [
  "scale-typegen",
  "subxt-codegen",
  "subxt-utils-fetchmetadata",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -17558,9 +17555,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "2.0.96"
+version = "2.0.98"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d5d0adab1ae378d7f53bdebc67a39f1f151407ef230f0ce2883572f5d8985c80"
+checksum = "36147f1a48ae0ec2b5b3bc5b537d267457555a10dc06f3dbc8cb11ba3006d3b1"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -17576,7 +17573,7 @@ dependencies = [
  "paste",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -17588,7 +17585,7 @@ dependencies = [
  "paste",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -17626,7 +17623,7 @@ checksum = "c8af7666ab7b6390ab78131fb5b0fce11d6b7a6951602017c35fa82800708971"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -17798,7 +17795,7 @@ checksum = "4fee6c4efc90059e10f81e6d42c60a18f76588c3d74cb83a0b242a2b6c7504c1"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -17809,7 +17806,7 @@ checksum = "26afc1baea8a989337eeb52b6e72a039780ce45c3edfcc9c5b9d112feeb173c2"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -17897,9 +17894,34 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1f3ccbac311fea05f86f61904b462b55fb3df8837a366dfc601a0161d0532f20"
 
 [[package]]
+name = "tnt-bls"
+version = "0.1.8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6990a03a2e5c1c972663de4b29d9551aebe1808f46fdf4a46dda76cf6606e120"
+dependencies = [
+ "ark-bls12-377 0.5.0",
+ "ark-bls12-381 0.5.0",
+ "ark-ec 0.5.0",
+ "ark-ff 0.5.0",
+ "ark-serialize 0.5.0",
+ "ark-serialize-derive 0.5.0",
+ "arrayref",
+ "constcat",
+ "digest 0.10.7",
+ "rand 0.8.5",
+ "rand_chacha 0.3.1",
+ "rand_core 0.6.4",
+ "sha2 0.10.8",
+ "sha3",
+ "thiserror 1.0.69",
+ "zeroize",
+]
+
+[[package]]
 name = "tnt-core-bytecode"
-version = "0.1.0"
-source = "git+https://github.com/tangle-network/tnt-core.git?branch=donovan/bytecode#b85cc4f149edf48de413184334dcea5514e064de"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1dfc919ded945564a2e23552904c6a529e7eb16d1ccd9a42518250db70eebe16"
 dependencies = [
  "serde_json",
 ]
@@ -17945,7 +17967,7 @@ checksum = "6e06d43f1345a3bcd39f6a56dbb7dcab2ba47e68e8ac134855e7e2bdbaf8cab8"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -18126,7 +18148,7 @@ checksum = "395ae124c09f9e6918a2310af6038fba074bcf474ac352496d5910dd59a2226d"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -18343,7 +18365,7 @@ checksum = "97fee6b57c6a41524a810daee9286c02d7752c4253064d0b05472833a438f675"
 dependencies = [
  "cfg-if",
  "digest 0.10.7",
- "rand 0.8.5",
+ "rand 0.7.3",
  "static_assertions",
 ]
 
@@ -18364,7 +18386,7 @@ checksum = "f9534daa9fd3ed0bd911d462a37f172228077e7abf18c18a5f67199d959205f8"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -18620,29 +18642,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "w3f-bls"
-version = "0.1.8"
-source = "git+https://github.com/drewstone/bls.git?branch=drew/bump-ark-versions#204105643891109f9fbd1063f2e3044bf574249b"
-dependencies = [
- "ark-bls12-377 0.5.0",
- "ark-bls12-381 0.5.0",
- "ark-ec 0.5.0",
- "ark-ff 0.5.0",
- "ark-serialize 0.5.0",
- "ark-serialize-derive 0.5.0",
- "arrayref",
- "constcat",
- "digest 0.10.7",
- "rand 0.8.5",
- "rand_chacha 0.3.1",
- "rand_core 0.6.4",
- "sha2 0.10.8",
- "sha3",
- "thiserror 1.0.69",
- "zeroize",
-]
-
-[[package]]
 name = "wait-timeout"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -18713,7 +18712,7 @@ dependencies = [
  "log",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
  "wasm-bindgen-shared",
 ]
 
@@ -18748,7 +18747,7 @@ checksum = "8ae87ea40c9f689fc23f209965b6fb8a99ad69aeeb0231408be24920604395de"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
  "wasm-bindgen-backend",
  "wasm-bindgen-shared",
 ]
@@ -19566,7 +19565,7 @@ dependencies = [
  "Inflector",
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -19694,7 +19693,7 @@ checksum = "2380878cad4ac9aac1e2435f3eb4020e8374b5f13c296cb75b4620ff8e229154"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
  "synstructure 0.13.1",
 ]
 
@@ -19725,7 +19724,7 @@ checksum = "fa4f8080344d4671fb4e831a13ad1e68092748387dfc4f55e356242fae12ce3e"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -19736,7 +19735,7 @@ checksum = "03a73df1008145cd135b3c780d275c57c3e6ba8324a41bd5e0008fe167c3bc7c"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -19756,7 +19755,7 @@ checksum = "595eed982f7d355beb85837f651fa22e90b3c044842dc7f2c2842c086f295808"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
  "synstructure 0.13.1",
 ]
 
@@ -19777,7 +19776,7 @@ checksum = "ce36e65b0d2999d2aafac989fb249189a141aee1f53c612c1f37d72631959f69"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
@@ -19799,7 +19798,7 @@ checksum = "6eafa6dfb17584ea3e2bd6e76e0cc15ad7af12b09abdd1ca55961bed9b1063c6"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.96",
+ "syn 2.0.98",
 ]
 
 [[package]]
